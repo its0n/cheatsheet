@@ -1,0 +1,48 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle CheatSheet",
+        "command": "cheatsheet:toggle"
+      }
+    ],
+    ".root-cheatsheet": [
+      {
+        "label": "Toggle CheatSheet",
+        "command": "cheatsheet:toggle"
+      },
+      {
+        "label": "Edit CheatSheet",
+        "command": "cheatsheet:edit"
+      },
+      {
+        "label": "Reload CheatSheet",
+        "command": "cheatsheet:reload"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "CheatSheet",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cheatsheet:toggle"
+            },
+            {
+              "label": "Edit",
+              "command": "cheatsheet:edit"
+            },
+            {
+              "label": "Reload",
+              "command": "cheatsheet:reload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
