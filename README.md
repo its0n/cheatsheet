@@ -1,12 +1,12 @@
 # CheatSheet
 
-[![Build Status](https://travis-ci.org/cakecatz/flex-toolbar.svg?branch=master)](https://travis-ci.org/cakecatz/flex-toolbar)
-
 ## About
 
 ### Features
 -   Copy content from the cheatsheet panel directly in your clipboard - Just click on it!
 -   Customize the cheatsheet panel with individual entries in a config file
+
+![screenshot-features](https://raw.githubusercontent.com/its0n/cheatsheet/master/screenshots/cheatsheet-features.gif?token=Asylm6wUUt_U2sOLCtTflYMAhL7RmR7Lks5cSInawA%3D%3D)
 
 ### Commands
 -   To open cheatsheet type `cheatsheet:toggle` in the Atom command palette or press `ctrl-alt-#`
@@ -14,8 +14,6 @@
 -   To reload cheatsheet type `cheatsheet:reload` in the Atom command palette
 
 All commands are also available via context menu --> Press right mouse button on the visible cheatsheet panel.
-
-![screenshot](https://raw.githubusercontent.com/cakecatz/flex-toolbar/docs/screenshot_cson.png)
 
 ## Configuration
 
@@ -32,6 +30,8 @@ All commands are also available via context menu --> Press right mouse button on
 5.   Type `cheatsheet:reload` in the Atom command palette to reload your config file and see the changes
 
 ### Customize the config file
+
+![screenshot-edit](https://raw.githubusercontent.com/its0n/cheatsheet/master/screenshots/cheatsheet-edit.gif?token=Asylm50ghwfXFLkZtTqerwtrqc-9zW3Oks5cSIprwA%3D%3D)
 
 **CheatSheet** has five `type`s you can configure:
 `header`, `subheader`, `content` and `spacer`.
@@ -209,12 +209,12 @@ module.exports = [
 
 ## Author
 
-[![Fabian Arlt][fabian avator]](https://github.com/its0n)
-|:-----------------------------------------------------------:|
-           [Fabian Arlt](https://github.com/its0n)           
+| [![Fabian Arlt][fabian avatar]](https://github.com/its0n) |
+| :---: |
+|          [Fabian Arlt](https://github.com/its0n)          |        
 
 ## License
 
 MIT © [Fabian Arlt](https://github.com/its0n)
 
-[fabian avator]: https://avatars1.githubusercontent.com/u/46966171?s=460&v=4
+[fabian avatar]: https://avatars1.githubusercontent.com/u/46966171?s=460&v=4
