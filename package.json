@@ -1,7 +1,7 @@
 {
   "name": "cheatsheet",
   "main": "./lib/cheatsheet",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Customizable CheatSheet panel for Atom",
   "keywords": [
     "cheatsheet",
@@ -20,6 +20,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
