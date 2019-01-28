@@ -60,7 +60,7 @@ module.exports = [
   }
   {
     type: 'content'
-    text: 'pip freeze > python-requirements.txt'
+    text: 'pip freeze > requirements.txt'
     description: 'Create a requirements.txt file'
   }
   {

@@ -2,7 +2,7 @@
   "name": "cheatsheet",
   "main": "./lib/cheatsheet",
   "version": "1.0.0",
-  "description": "A short description of your package",
+  "description": "Customizable CheatSheet panel for Atom",
   "keywords": [
     "cheatsheet",
     "CheatSheet",
@@ -15,7 +15,7 @@
   "activationCommands": {
     "atom-workspace": "cheatsheet:toggle"
   },
-  "repository": "https://github.com/atom/cheatsheet",
+  "repository": "https://github.com/its0n/cheatsheet",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

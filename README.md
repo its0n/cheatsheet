@@ -1,40 +1,39 @@
 # CheatSheet
 
-## About
-
-### Features
--   Copy content from the cheatsheet panel directly in your clipboard - Just click on it!
--   Customize the cheatsheet panel with individual entries in a config file
+## Features
+-   Copy content from the **CheatSheet** panel directly to your clipboard - Just click on it!
+-   Customize the **CheatSheet** panel with individual entries by creating your unique config file
 
 ![screenshot-features](https://raw.githubusercontent.com/its0n/cheatsheet/master/screenshots/cheatsheet-features.gif?token=Asylm6wUUt_U2sOLCtTflYMAhL7RmR7Lks5cSInawA%3D%3D)
 
-### Commands
--   To open cheatsheet type `cheatsheet:toggle` in the Atom command palette or press `ctrl-alt-#`
--   To edit and create your custom cheatsheet type `cheatsheet:edit` in the Atom command palette
--   To reload cheatsheet type `cheatsheet:reload` in the Atom command palette
+## Commands
+-   To open **CheatSheet** type `cheatsheet:toggle` in the Atom command palette or press `ctrl-alt-#`
+-   To edit and create your custom **CheatSheet** type `cheatsheet:edit` in the Atom command palette
+-   To reload **CheatSheet** type `cheatsheet:reload` in the Atom command palette
 
-All commands are also available via context menu --> Press right mouse button on the visible cheatsheet panel.
+All commands are also available via context menu --> Click the right mouse button on the visible **CheatSheet** panel
 
 ## Configuration
 
 ### Set a custom config file path
 
-**CheatSheet** has the possibility to set a custom config file path.
+**CheatSheet** stores all configuration parameters in a config file (support for ".coffee" files only).
+`OPTIONAL` You have the possibility to set a custom config file path:
 
 1.   Go to package settings and insert your custom file path or use the default path
 2.   Type `cheatsheet:edit` in the Atom command palette -->
-     this will create a copy of the default cheatsheet file in your custom directory
+     this will create a copy of the default **CheatSheet** file in your custom directory
 3.   Press `Edit Config` in the notification dialog -->
-     this will open your custom cheatsheet
+     this will open your custom **CheatSheet**
 4.   Customize the file as you like and save the file
-5.   Type `cheatsheet:reload` in the Atom command palette to reload your config file and see the changes
+5.   Type `cheatsheet:reload` in the Atom command palette to reload your config file and check if the change was saved successfully
 
 ### Customize the config file
 
 ![screenshot-edit](https://raw.githubusercontent.com/its0n/cheatsheet/master/screenshots/cheatsheet-edit.gif?token=Asylm50ghwfXFLkZtTqerwtrqc-9zW3Oks5cSIprwA%3D%3D)
 
 **CheatSheet** has five `type`s you can configure:
-`header`, `subheader`, `content` and `spacer`.
+`header`, `subheader`, `content` and `spacer`
 
 -   `header` creates a header
 
@@ -47,9 +46,9 @@ All commands are also available via context menu --> Press right mouse button on
       icon: 'devicons devicons-git'
     }
     ```
-    - `text`: Add your custom header text.
-    - `icon` `optional`: Add a custom icon from the [Devicon](http://vorillaz.github.io/devicons/#/cheat) (`devicon`) icon-set.
-      Using the full class is mandatory: `devicons devicons-`.
+    - `text`: Add your custom header text
+    - `icon` `OPTIONAL`: Add a custom icon from the [Devicon](http://vorillaz.github.io/devicons/#/cheat) (`devicon`) icon-set;
+      Using the full CSS class is mandatory: `devicons devicons-ICONNAME`
 
 
 -   `subheader` creates a subheader
@@ -62,7 +61,7 @@ All commands are also available via context menu --> Press right mouse button on
       text: 'Make Changes'
     }
     ```
-    `text`: Add your custom header text.
+    `text`: Add your custom header text
 
 
 -   `content` creates the copy to clipboard element
@@ -77,16 +76,16 @@ All commands are also available via context menu --> Press right mouse button on
       rows: 5
     }
     ```
-    - `text`: Add your custom cheatsheet content. `IMPORTANT`: If you are working under windows remember to use `\\` to escape `\` to show paths correctly:
+    - `text`: Add your custom **CheatSheet** content. `IMPORTANT`: If you are working under windows remember to use `\\` to escape `\` to show paths correctly:
       ```coffeescript
       text: 'venv\\Scripts\\activate'
       ```
 
-    - `description` `optional`: Add a description for more details
+    - `description` `OPTIONAL`: Add a description for more details
 
-    - `rows` `optional`: Number of rows define the height of the copy area. You can manually set it up to avoid scrolling.
+    - `rows` `OPTIONAL`: Number of rows define the height of the copy area to avoid scrolling
 
--   `spacer` adds separators between cheatsheet elements.
+-   `spacer` adds separators between **CheatSheet** elements
 
 
 
@@ -206,15 +205,6 @@ module.exports = [
 ]
 ```
 
-
-## Author
-
-| [![Fabian Arlt][fabian avatar]](https://github.com/its0n) |
-| :---: |
-|          [Fabian Arlt](https://github.com/its0n)          |        
-
 ## License
 
 MIT © [Fabian Arlt](https://github.com/its0n)
-
-[fabian avatar]: https://avatars1.githubusercontent.com/u/46966171?s=460&v=4
