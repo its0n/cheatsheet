@@ -136,17 +136,17 @@ module.exports = [
   {
     type: 'content'
     text: 'python -m virtualenv venv'
-    description: 'Create a new virtual enviroment'
+    description: 'Create a new virtual environment'
   }
   {
     type: 'content'
     text: 'venv\\Scripts\\activate'
-    description: 'Activate a virtual enviroment on Windwos'
+    description: 'Activate a virtual environment on Windows'
   }
   {
     type: 'content'
     text: 'source venv/bin/activate'
-    description: 'Activate a virtual enviroment on Unix/MacOS'
+    description: 'Activate a virtual environment on Unix/MacOS'
   }
   {
     type: 'subheader'
