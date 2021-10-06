@@ -4,7 +4,7 @@
 -   Copy content from the **CheatSheet** panel directly to your clipboard - Just click on it!
 -   Customize the **CheatSheet** panel with individual entries by creating your unique config file
 
-![screenshot-features](/screenshots/cheatsheet-features.gif?token=Asylm6wUUt_U2sOLCtTflYMAhL7RmR7Lks5cSInawA%3D%3D)
+![screenshot-features](/screenshots/cheatsheet-features.gif)
 
 ## Commands
 -   To open **CheatSheet** type `cheatsheet:toggle` in the Atom command palette or press `ctrl-alt-#`
