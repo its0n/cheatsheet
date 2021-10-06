@@ -4,7 +4,7 @@
 -   Copy content from the **CheatSheet** panel directly to your clipboard - Just click on it!
 -   Customize the **CheatSheet** panel with individual entries by creating your unique config file
 
-![screenshot-features](https://raw.githubusercontent.com/its0n/cheatsheet/master/screenshots/cheatsheet-features.gif?token=Asylm6wUUt_U2sOLCtTflYMAhL7RmR7Lks5cSInawA%3D%3D)
+![screenshot-features](/screenshots/cheatsheet-features.gif?token=Asylm6wUUt_U2sOLCtTflYMAhL7RmR7Lks5cSInawA%3D%3D)
 
 ## Commands
 -   To open **CheatSheet** type `cheatsheet:toggle` in the Atom command palette or press `ctrl-alt-#`
@@ -30,7 +30,7 @@ All commands are also available via context menu --> Click the right mouse butto
 
 ### Customize the config file
 
-![screenshot-edit](/screenshots/cheatsheet-edit.gif?token=Asylm50ghwfXFLkZtTqerwtrqc-9zW3Oks5cSIprwA%3D%3D)
+![screenshot-edit](/screenshots/cheatsheet-edit.gif)
 
 **CheatSheet** has five `type`s you can configure:
 `header`, `subheader`, `content` and `spacer`
