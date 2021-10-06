@@ -30,7 +30,7 @@ All commands are also available via context menu --> Click the right mouse butto
 
 ### Customize the config file
 
-![screenshot-edit](https://raw.githubusercontent.com/its0n/cheatsheet/master/screenshots/cheatsheet-edit.gif?token=Asylm50ghwfXFLkZtTqerwtrqc-9zW3Oks5cSIprwA%3D%3D)
+![screenshot-edit](/master/screenshots/cheatsheet-edit.gif?token=Asylm50ghwfXFLkZtTqerwtrqc-9zW3Oks5cSIprwA%3D%3D)
 
 **CheatSheet** has five `type`s you can configure:
 `header`, `subheader`, `content` and `spacer`
